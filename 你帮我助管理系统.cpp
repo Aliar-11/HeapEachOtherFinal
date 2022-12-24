@@ -1411,7 +1411,7 @@ void ItemPrint(int tot)
 			if (SA.uMsg == WM_LBUTTONDOWN)
 			{
 				cleardevice();
-				CommonUserPage();
+				ManageItem();
 			}
 		}
 		else
